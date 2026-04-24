@@ -69,7 +69,7 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
+  "requested_spec": "sqlite",
   "sha256": "d9d5f8b3ba4afcf43baca9386ae69f3b7b0f1d30f35ced10bc52d61fe0d1cd28",
   "size": 938682,
   "subdir": "win-64",
