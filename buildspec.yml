@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.8
+    commands:
+      - echo Installing dependencies...
+      - pip install -r requirements.txt
+  build:
+    commands:
+      - echo Build completed successfully!
+artifacts:
+  files:
+    - 'application.py'
+    - 'requirements.txt'
+    - '.ebextensions/**/*'
+    - 'src/**/*'
+    - 'templates/**/*'
+    - 'artifacts/**/*'
+    - 'setup.py'
