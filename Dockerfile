@@ -22,4 +22,4 @@ ENV PORT=5000
 ENV FLASK_APP=application.py
 
 # Run the Flask app
-CMD ["python", "application.py"]
+CMD ["python", "app.py"]
